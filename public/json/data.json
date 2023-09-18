@@ -1,0 +1,45 @@
+{
+   "todo": [
+        {
+            "priority":"Important",
+            "description":"Create sign up sheet for holiday student/parent",
+            "progress":"3/5",
+            "color":"pink-500"
+        },
+        {
+            "priority":"Instructor Meeting",
+            "description":"Plan holiday demonstration program. Create outline.",
+            "progress":"4/5",
+            "color":"rose-800"
+        },
+        {
+            "priority":"Database",
+            "description":"Determine how many boards need to be ordered for testing and demo.",
+            "progress":"2/5",
+            "color":"lime-800"
+        }
+    ],
+    "doing":[
+        {
+            "priority":"Instructor Meeting",
+            "description":"Plan holiday demonstration program. Create outline.",
+            "progress":"4/5",
+            "color":"pink-500"
+        },
+        {
+            "priority":"Database",
+            "description":"Determine how many boards need to be ordered for testing and demo.",
+            "progress":"3/5",
+            "color":"pink-500"
+        }
+    ],
+    "done":[
+        {
+            "priority":"Database",
+            "description":"Determine how many boards need to be ordered for testing and demo.",
+            "progress":"full",
+            "color":"pink-500"
+        }
+    ],
+    "revised":[]
+}
