@@ -3,20 +3,20 @@
         {
             "priority":"Important",
             "description":"Create sign up sheet for holiday student/parent",
-            "progress":"3/5",
-            "color":"pink-500"
+            "progress":"2/5",
+            "color":"[#ff5733]"
         },
         {
             "priority":"Instructor Meeting",
             "description":"Plan holiday demonstration program. Create outline.",
             "progress":"4/5",
-            "color":"rose-800"
+            "color":"rose-500"
         },
         {
             "priority":"Database",
             "description":"Determine how many boards need to be ordered for testing and demo.",
             "progress":"2/5",
-            "color":"lime-800"
+            "color":"lime-500"
         }
     ],
     "doing":[
@@ -30,7 +30,7 @@
             "priority":"Database",
             "description":"Determine how many boards need to be ordered for testing and demo.",
             "progress":"3/5",
-            "color":"pink-500"
+            "color":"pink-300"
         }
     ],
     "done":[

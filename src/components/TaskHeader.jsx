@@ -79,7 +79,7 @@ const TaskHeader = (props) => {
                       </span>
                     </div>
                     <div className="flex justify-between p-2 gap-x-3 rounded-xl bg-[#6418c3] w-max h-max font-bold ">
-                      <BiSolidUserPlus className=" text-white " />
+                      <BiSolidUserPlus className=" text-white my-auto" />
                       <p className="self-center">Invite People</p>
                     </div>
                     <div className="p-2 rounded-xl border-2 border-[#6418c3] w-max h-max font-semibold">
@@ -109,7 +109,7 @@ const TaskHeader = (props) => {
       </div>
       {/* todo list  */}
       {/* {console.log("items is here", items)} */}
-      <div className="m-4 flex justify-evenly gap-x-12  overflow-hidden">
+      <div className="m-4 flex justify-evenly gap-x-12 min-w-full overflow-hidden">
         <div className="grid gap-y-3 h-max ">
           {/* todo */}
           <div className="flex justify-between w-full">
@@ -135,7 +135,8 @@ const TaskHeader = (props) => {
             </div>
           </div>
           {items.doing.map((item, i) => {
-            return <Card key={i} {...item} />;
+            if(i==1) return <Card key={i} flag={true} {...item}/>
+            else return <Card key={i} {...item} />;
           })}
         </div>
         <div className="grid gap-y-3 h-max">
