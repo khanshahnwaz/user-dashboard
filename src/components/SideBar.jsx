@@ -14,8 +14,8 @@ import {RxDoubleArrowLeft} from 'react-icons/rx'
 import { useState } from 'react'
 const Left = (props) => {
   return (
-    <div className='lg:w-1/5'>
-      <div className={` w-full sm:w-max  min-w-fit   h-max bg-[#0c122b] text-left py-10 lg:px-auto px-10  fixed ${props.controlSideBar} lg:left-0 z-50 transition-all ease-in-out duration-1000 `}>
+    <div className='w-1/5 block'>
+      <div className={` lg:w-1/5 w-full sm:w-max    h-max bg-[#0c122b] text-left py-10 lg:px-auto px-10  fixed ${props.controlSideBar} lg:left-0 z-50 transition-all ease-in-out duration-1000 `}>
         {/* <img src={tri} alt='triangle' className='indivne float-left'/> */}
         <div className="w-4/5 mx-auto sm:mx-0 lg:mx-auto text-left grid gap-y-10">
 

@@ -575,6 +575,9 @@ video {
   margin-top: auto;
   margin-bottom: auto;
 }
+.block {
+  display: block;
+}
 .inline-block {
   display: inline-block;
 }
@@ -627,6 +630,9 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+.w-1\/5 {
+  width: 20%;
 }
 .min-w-0 {
   min-width: 0px;
