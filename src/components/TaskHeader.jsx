@@ -7,7 +7,7 @@ import items from "../../public/json/data.json";
 const TaskHeader = (props) => {
   // console.log("items",items)
   return (
-    <div className="w-full">
+    <div className="w-full lg:w-4/5">
       <Header {...props} />
       <div className="bg-[#0c122b] m-4 rounded-lg p-4 h-max">
         <div className="w-full flex justify-between h-max gap-y-10">
@@ -97,8 +97,8 @@ const TaskHeader = (props) => {
                     <p className="font-bold text-lg self-center">
                       Total Progress 60%{" "}
                     </p>
-                    <div className="h-3 rounded-3xl bg-white my-auto w-80">
-                      <div className="rounded-3xl h-full bg-[#6418c3] w-4/5"></div>
+                    <div className="h-3 rounded-3xl bg-white my-auto w-full sm:w-80">
+                      <div className="rounded-3xl h-full bg-[#6418c3] w-4/5 "></div>
                     </div>
                   </div>
                
