@@ -4,7 +4,7 @@ import {IoMdTimer} from 'react-icons/io'
 const Card = (props) => {
     const color=props.color;
   return (
-    <div className='rounded-3xl px-5 py-10 grid gap-y-7  bg-[#211a75] w-[90%]'>
+    <div className='rounded-3xl px-5 py-10 grid gap-y-7  bg-[#211a75] w-full'>
       <div className='flex justify-between w-full'>
         <div className='flex justify-start gap-x-3'>
             <div className={`h-4 w-4 rounded-full bg-${color} my-auto`}>
