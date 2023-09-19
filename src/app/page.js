@@ -4,7 +4,7 @@ import Header from '../components/Header'
 import Left from '../components/SideBar'
 import { useState } from 'react';
 export default function Home() {
-  const [controlSideBar,setControlSideBar]=useState('-left-full');
+  const [controlSideBar,setControlSideBar]=useState('-left-[200%]');
 
   return (
     <>

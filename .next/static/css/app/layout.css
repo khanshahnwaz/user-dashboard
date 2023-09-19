@@ -531,8 +531,8 @@ video {
 .-left-9 {
   left: -2.25rem;
 }
-.-left-full {
-  left: -100%;
+.-left-\[200\%\] {
+  left: -200%;
 }
 .-right-1 {
   right: -0.25rem;
@@ -542,9 +542,6 @@ video {
 }
 .-top-2 {
   top: -0.5rem;
-}
-.-left-\[200\%\] {
-  left: -200%;
 }
 .z-10 {
   z-index: 10;
@@ -612,6 +609,9 @@ video {
   height: -moz-max-content;
   height: max-content;
 }
+.w-1\/5 {
+  width: 20%;
+}
 .w-10 {
   width: 2.5rem;
 }
@@ -630,16 +630,6 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-.w-1\/5 {
-  width: 20%;
-}
-.min-w-0 {
-  min-width: 0px;
-}
-.min-w-fit {
-  min-width: -moz-fit-content;
-  min-width: fit-content;
 }
 .cursor-pointer {
   cursor: pointer;

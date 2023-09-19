@@ -24,7 +24,7 @@ const Left = (props) => {
           weframetech
         </h1>
         <AiOutlineMenu className=' lg:block hidden my-auto text-2xl text-[#7879f1]'/>
-        <RxDoubleArrowLeft onClick={()=>props.setControlSideBar('-left-full')} className='cursor-pointer lg:hidden my-auto text-3xl font-bold text-white'/>
+        <RxDoubleArrowLeft onClick={()=>props.setControlSideBar('-left-[200%]')} className='cursor-pointer lg:hidden my-auto text-3xl font-bold text-white'/>
         </div>
         <div className='lg:hidden flex justify-around gap-x-4 bg-[#211a75] p-3 h-max rounded-2xl my-auto'>
             <BiSearch className='my-auto text-2xl text-[#7879f1]' />

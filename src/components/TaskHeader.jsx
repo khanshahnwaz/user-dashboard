@@ -78,23 +78,23 @@ const TaskHeader = (props) => {
                         +4
                       </span>
                     </div>
-                    <div className="flex justify-between px-3 py-3 gap-x-3 rounded-xl bg-[#6418c3] w-max h-max font-bold ">
-                      <BiSolidUserPlus className=" text-white text-xl" />
+                    <div className="flex justify-between p-2 gap-x-3 rounded-xl bg-[#6418c3] w-max h-max font-bold ">
+                      <BiSolidUserPlus className=" text-white " />
                       <p className="self-center">Invite People</p>
                     </div>
-                    <div className="p-2 rounded-xl border-2 border-[#6418c3] w-max h-max font-bold">
+                    <div className="p-2 rounded-xl border-2 border-[#6418c3] w-max h-max font-semibold">
                       Private
                     </div>
-                    <div className="p-2 rounded-xl border-2 bg-[#7879f1] w-max h-max font-bold">
+                    <div className="p-2 rounded-xl border-2 bg-[#7879f1] w-max h-max font-semibold">
                       Edit
                     </div>
-                    <div className="p-2 flex justify-between gap-x-3  rounded-xl border-2 border-[#6418c3] w-max h-max font-bold">
-                      <BiMessageDots className="text-2xl my-auto" />
+                    <div className="p-2 flex justify-between gap-x-3  rounded-xl border-2 border-[#6418c3] w-max h-max font-semibold">
+                      <BiMessageDots className=" my-auto" />
                       45 Comments
                     </div>
                   </div>
                   <div className="flex flex-wrap  gap-x-4 items-center ">
-                    <p className="font-bold text-lg self-center">
+                    <p className="font-bold  self-center">
                       Total Progress 60%{" "}
                     </p>
                     <div className="h-3 rounded-3xl bg-white my-auto w-full sm:w-80">
@@ -105,9 +105,7 @@ const TaskHeader = (props) => {
         </div>
 
         {/* second part  */}
-        <div>
-          <div></div>
-        </div>
+        
       </div>
       {/* todo list  */}
       {/* {console.log("items is here", items)} */}
