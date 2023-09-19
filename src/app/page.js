@@ -1,20 +1,18 @@
-'use client';
-import TaskHeader from '@/components/TaskHeader'
-import Header from '../components/Header'
-import Left from '../components/SideBar'
-import { useState } from 'react';
+"use client";
+import SideBar from "../components/Sidebar/SideBar";
+import { useState } from "react";
+import Main from "@/components/RecordContainer/Main";
 export default function Home() {
-  const [controlSideBar,setControlSideBar]=useState('-left-[200%]');
+  const [controlSideBar, setControlSideBar] = useState("-left-[200%]");
 
   return (
-    <>
-    <div className='flex'>
-<Left controlSideBar={controlSideBar} setControlSideBar={setControlSideBar}/>
-<TaskHeader setControlSideBar={setControlSideBar} />
-{/* <Header/> */}
-    </div>
+      <div className="flex">
+        <SideBar
+          controlSideBar={controlSideBar}
+          setControlSideBar={setControlSideBar}
+        />
+        <Main setControlSideBar={setControlSideBar} />
+      </div>
    
-    </>
-   
-  )
+  );
 }
